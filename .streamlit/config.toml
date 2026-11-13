@@ -1,0 +1,10 @@
+# Streamlit app entry-point configuration
+# Reference: https://docs.streamlit.io/develop/api-reference/configuration
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+

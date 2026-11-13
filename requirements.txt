@@ -1,0 +1,31 @@
+# AI Career Copilot — Runtime Dependencies
+# Install with: pip install -r requirements.txt
+# Tested on Python 3.13 with the venv at ./venv
+
+# Web framework
+streamlit>=1.35.0
+
+# PDF parsing (use pymupdf, the fitz package is deprecated)
+pymupdf>=1.24.0
+
+# Semantic embeddings
+sentence-transformers>=3.0.0
+torch>=2.0.0
+
+# Similarity & numerics
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# LLM orchestration
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-google-genai>=1.0.0
+
+# Google API error types
+google-api-core>=2.15.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.0.0
