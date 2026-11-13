@@ -1,6 +1,6 @@
 # AI Career Copilot
 
-🚀 **Live Demo:** [Try AI Career Copilot](https://ai-career-copilot-cgswkbfy7aw8ymavgmxnmc.streamlit.app/)
+🚀  [Live Demo](https://ai-career-copilot-cgswkbfy7aw8ymavgmxnmc.streamlit.app/)
 
 <div align="center">
 
