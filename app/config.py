@@ -12,7 +12,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
 # API Keys
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+# API Keys
+try:
+    import streamlit as st
+    GOOGLE_API_KEY = st.secrets.get(
+        "GOOGLE_API_KEY",
+        os.getenv("GOOGLE_API_KEY", "")
+    )
+except Exception:
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 
 # Gemini Models with graceful fallback order
 # Gemini Models
