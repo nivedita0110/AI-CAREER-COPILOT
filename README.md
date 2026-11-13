@@ -1,5 +1,7 @@
 # AI Career Copilot
 
+🚀 **Live Demo:** [Try AI Career Copilot](https://ai-career-copilot-cgswkbfy7aw8ymavgmxnmc.streamlit.app/)
+
 <div align="center">
 
 **Enterprise-grade ATS Intelligence Engine & AI Career Strategist**
